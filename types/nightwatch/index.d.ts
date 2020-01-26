@@ -189,6 +189,7 @@ export interface NightwatchDesiredCapabilities {
         browser?: string;
         driver?: string;
         server?: string;
+        performance?: string;
     };
     /**
      * This is a list of all the Chrome-specific desired capabilities.
